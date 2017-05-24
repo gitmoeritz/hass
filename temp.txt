@@ -1,4 +1,0 @@
-./certbot-auto certonly --standalone \
-                          --preferred-challenges tls-sni \
-                          --email bga.moritz@gmail.com \
-                          -d hassmoritz.duckdns.org
