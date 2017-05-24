@@ -1,0 +1,32 @@
+  - platform: rfxtrx
+    automatic_add: True
+    signal_repetitions: 5
+    devices:
+      0b1100020086af5210010f70:
+        name: top_floor_light1
+      0b1100240086af520f010f70:
+        name: top_floor_light2
+      0b110010014f1a060a010f70:
+        name: top_floor_door
+      0b1100130179d35210010f60:
+        name: top_floor_light_led
+      0b1100260249ff520f000070:
+        name: kitchen_coffemaker
+      0b11000f0086af520e010f70:
+        name: garage_lamp
+      0b1100190249ff5210010f70:
+        name: food_cellar_lamp
+      0b1100210249ff520e010f70:
+        name: guest_room_lamp
+      0b1100cd0179d3520f000070:
+        name: ikea_gateway
+      0b1100d90179d3520e010f70:
+        name: playroom_light
+      0b1100c70147c35210000070:
+        name: parents_room_light
+      0b1100c90147c3520f000070:
+        name: ellens_room_light
+      0b11004b014f1dc20a010f60:
+        name: ground_floor_door
+      0b1100610111d46e0a010f70:
+        name: kitchen_door

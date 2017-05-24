@@ -1,0 +1,7 @@
+alarm_system:
+  name: Alarm
+  options:
+    - På
+    - Av
+    - Natt
+  initial: Av

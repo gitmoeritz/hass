@@ -1,0 +1,2 @@
+#  - platform: sonos
+#    interface_addr: 192.0.1.119

@@ -1,0 +1,4 @@
+  - platform: samsungtv
+    host: 192.168.1.177
+    name: TV Vardagsrum
+    mac: a0:0b:ba:8d:27:59

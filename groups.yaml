@@ -1,0 +1,141 @@
+top_floor:
+  name: "\xD6verv\xE5ning"
+  view: true
+  entities:
+  - group.ikea_top
+  - media_player.stora_salen
+  - media_player.tv_vardagsrum
+  - media_player.vardagsrum
+  - sensor.overvaning_temperature
+  - switch.top_floor_light1
+  - switch.top_floor_light2
+  - switch.top_floor_light_led
+middle_floor:
+  name: Mellanplan
+  view: true
+  entities:
+  - group.ikea_middle
+  - group.kitchen
+ground_floor:
+  name: "Bottenv\xE5ning"
+  view: true
+  entities:
+  - group.ikea_ground
+climate:
+  name: Climate
+  icon: mdi:temperature-celsius
+  view: true
+  entities:
+  - group.climate_group
+  - group.yr_group
+sonos:
+  name: Sonos
+  view: true
+  icon: mdi:speaker-wireless
+  entities:
+  - group.sonos_group
+awesome_people:
+  name: Awesome People
+  icon: mdi:account-multiple
+  view: true
+  entities:
+  - group.andreas_tracker
+  - group.anna_tracker
+andreas_tracker:
+  name: Andreas
+  view: false
+  entities:
+  - device_tracker.andreas
+  - sensor.iphone_battery_level
+  - sensor.iphone_battery_state
+anna_tracker:
+  name: Anna
+  view: false
+  entities:
+  - device_tracker.anna
+  - sensor.iphone_battery_level_2
+  - sensor.iphone_battery_state_2
+climate_group:
+  name: "V\xE4dersensorer"
+  view: false
+  entities:
+  - sensor.kok_temperature
+  - sensor.overvaning_temperature
+  - sensor.garage_temperature
+  - sensor.hall_temperature
+  - sensor.matkallare_temperature
+  - sensor.tvattstuga_temperature
+  - sensor.ute_temperature
+  - sensor.vind_temperature
+climate_group_hum:
+  name: Climate Humidity
+  view: false
+  entities:
+  - sensor.ute_humidity
+  - sensor.tvattstuga_humidity
+  - sensor.vind_humidity
+yr_group:
+  name: "V\xE4dret ute"
+  view: false
+  entities:
+  - sensor.ute_temperature
+  - sensor.ute_humidity
+  - sensor.yr_symbol
+  - sensor.yr_precipitation
+  - sensor.yr_wind_direction
+  - sensor.yr_wind_speed
+  - sensor.yr_cloudiness
+sonos_group:
+  name: Sonos
+  view: false
+  entities:
+  - media_player.kok
+  - media_player.lekrum
+  - media_player.vardagsrum
+ikea_all:
+  name: Alla taklampor
+  view: false
+  entities:
+  - group.ikea_top
+  - group.ikea_middle
+  - group.ikea_ground
+ikea_top:
+  name: "Taklampor \xF6verv\xE5ning"
+  view: false
+  icon: mdi:ceiling-light
+  entities:
+  - light.overvaning__golvlampa
+  - light.overvaning__spot_1
+  - light.overvaning__spot_2
+  - light.overvaning__spot_3
+  - light.overvaning__spot_4
+  - light.overvaning__spot_5
+ikea_middle:
+  name: "Taklampor mellanv\xE5ning"
+  view: false
+  icon: mdi:ceiling-light
+  entities:
+  - light.mellanvaning__glob
+  - light.mellanvaning__liten
+ikea_ground:
+  name: "Taklampor bottenv\xE5ning"
+  view: false
+  icon: mdi:ceiling-light
+  entities:
+  - light.bottenvaning__plafond
+  - light.bottenvaning__spot_1
+  - light.bottenvaning__spot_2
+  - light.bottenvaning__spot_3
+kitchen:
+  name: "K\xF6k"
+  view: false
+  entities:
+  - media_player.kok
+  - sensor.kok_temperature
+playroom:
+  name: Lekrummet
+  view: false
+  entities:
+  - media_player.lekrum
+ellens_room:
+parents_room:

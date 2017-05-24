@@ -1,0 +1,12 @@
+  - platform: yr
+    monitored_conditions:
+      - symbol
+      - precipitation
+      - windSpeed
+      - windDirection
+      - cloudiness
+#  - platform: darksky
+#    api_key: !secret darksky_api_key
+#    forecast: day1
+#    monitored_conditions:
+#      - summary

@@ -1,0 +1,28 @@
+  - platform: rfxtrx
+    automatic_add: True
+    devices:
+      08500700230000a679:
+        name: Matkällare
+      0a520906a300003e2c0179:
+        name: Ute
+        data_type:
+         - Humidity
+         - Temperature
+      0a52090169000078280179:
+        name: Vind
+        data_type:
+          - Humidity
+          - Temperature
+      08500707140000e789:
+        name: Övervåning
+      0a5209050b0000bc240279:
+        name: Tvättstuga
+        data_type:
+          - Humidity
+          - Temperature
+      08500719110000c679:
+        name: Hall
+      08500706fc0000e189:
+        name: Kök
+      08500704250000ac69:
+        name: Garage

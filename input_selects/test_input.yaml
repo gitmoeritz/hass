@@ -1,0 +1,13 @@
+testknapp:
+  name: Test
+  options:
+    - onon
+    - offoff
+  initial: offoff
+
+  #  testknapp:
+  #    name: Test
+  #    options:
+  #      - onon
+  #      - offoff
+  #    initial: offoff

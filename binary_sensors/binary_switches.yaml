@@ -1,0 +1,14 @@
+  - platform: template
+    sensors:
+      door_one:
+        value_template: "{{ states.switch.top_floor_door.state == 'on' }}"
+        friendly_name: 'Balkongdörr'
+        device_class: opening
+      door_two:
+        value_template: "{{ states.switch.ground_floor_door.state == 'on' }}"
+        friendly_name: 'Halldörr'
+        device_class: opening
+      door_three:
+        value_template: "{{ states.switch.kitchen_door.state == 'on' }}"
+        friendly_name: 'Köksdörr'
+        device_class: opening

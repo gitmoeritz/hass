@@ -1,0 +1,12 @@
+  - alias: Notify iOS app test
+    trigger:
+      platform: state
+      entity_id: input_select.alarm_system
+      to: 'På'
+    action:
+      service: notify.ios_andreas
+      data:
+        message: "Larmet påslaget"
+        data:
+          push:
+            badge: 5

@@ -1,0 +1,93 @@
+###################################
+##  Switches Section
+###################################
+switch.top_floor_light1:
+  friendly_name: 'Övervåning höger fönster'
+  hidden: False
+  icon: mdi:lamp
+  assumed_state: false
+
+switch.top_floor_light2:
+  friendly_name: 'Övervåning vänster fönster'
+  hidden: False
+  icon: mdi:lamp
+  assumed_state: false
+
+switch.top_floor_door:
+  friendly_name: 'Dörr övervåning'
+  hidden: True
+
+switch.ground_floor_door:
+  friendly_name: 'Dörr Hall'
+  hidden: True
+
+switch.kitchen_door:
+  friendly_name: 'Dörr Kök'
+  hidden: True
+
+
+switch.top_floor_light_led:
+  friendly_name: 'Övervåning LED'
+  hidden: False
+  icon: mdi:lamp
+  assumed_state: false
+
+switch.kitchen_coffemaker:
+  friendly_name: 'Kaffekokare'
+  hidden: False
+  icon: mdi:coffee
+  assumed_state: false
+
+switch.garage_lamp_2:
+  friendly_name: 'Garagelampa_old'
+  hidden: False
+  icon: mdi:lamp
+  assumed_state: false
+
+switch.cellar_lamp:
+  friendly_name: 'Källarlampa_old'
+  hidden: False
+  icon: mdi:lamp
+  assumed_state: false
+
+switch.garage_lamp:
+  friendly_name: 'Garagelampa'
+  hidden: False
+  icon: mdi:lamp
+  assumed_state: false
+
+switch.food_cellar_lamp:
+  friendly_name: 'Källarlampa'
+  hidden: False
+  icon: mdi:lamp
+  assumed_state: false
+
+switch.guest_room_lamp:
+  friendly_name: 'Gästrumslampa'
+  hidden: False
+  icon: mdi:lamp
+  assumed_state: false
+
+switch.ikea_gateway:
+  friendly_name: 'IKEA Gateway'
+  hidden: False
+  icon: mdi:router-wireless
+  assumed_state: true
+
+switch.playroom_light:
+  friendly_name: 'Lekrumslampa'
+  hidden: False
+  icon: mdi:lamp
+  assumed_state: false
+
+switch.parents_room_light:
+  friendly_name: 'Sovrumslampa AA'
+  hidden: False
+  icon: mdi:lamp
+  assumed_state: false
+
+switch.ellens_room_light:
+  friendly_name: 'Sovrumslampa Ellen'
+  hidden: False
+  icon: mdi:lamp
+  assumed_state: false
